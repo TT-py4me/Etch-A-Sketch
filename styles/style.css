@@ -1,0 +1,25 @@
+body {
+    display:flex;
+    
+}
+.box {
+    display:flex;
+    flex: 1 1 auto;
+    padding:0px;
+    width:5.9%;
+    height:115%;
+    border:2.5px solid #000000;
+    float:left;
+    
+}
+
+/*5.8%*/
+
+a {
+    display:flex;
+}
+
+.grid_container {
+    width:2000px;
+}
+
