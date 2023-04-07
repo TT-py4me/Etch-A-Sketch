@@ -1,25 +1,37 @@
 body {
-    display:flex;
+    width:100%;
+    margin:0px;
     
 }
 .box {
     display:flex;
     flex: 1 1 auto;
     padding:0px;
-    width:5.9%;
-    height:115%;
+    width:6.25%;
+    height:75px;
     border:2.5px solid #000000;
     float:left;
+    box-sizing:border-box;
     
 }
 
-/*5.8%*/
 
-a {
+.button {
     display:flex;
+    margin:5px;
+    width:150px;
+    height:50px;
+    text-align:center;
+    align-items:center;  
+    padding:10px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    font-size: 16px;
+    background-color:#f07808; 
+    border: 2px solid;
+    border-radius:5px;
+
 }
 
-.grid_container {
-    width:2000px;
-}
+
 
